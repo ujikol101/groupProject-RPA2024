@@ -25,7 +25,7 @@ def main():
     prompt += ",and the appearence is like:" + str(appearence)
     prompt += ",the character has the characteristic like:" + str(char)
     prompt += "besides,we have some other description of the character says:" + str(other)
-    prompt += "finally,the character is created for a  "
+    prompt += "finally,the character is created for a  " + str(genre)
     prompt += ",if you see none after a \':\',generate the part with your imagination"
     if genre is not None:
         prompt += genre + "movie/novel"
